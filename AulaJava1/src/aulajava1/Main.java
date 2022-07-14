@@ -1,9 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package aulajava1;
+
+//importanto a classe para tranformar virgula em ponto
+import java.util.Locale;
 
 /**
  *
@@ -35,8 +34,16 @@ public class Main {
         //printf é´para falar que vai imprimir o valor formatado da variavel z.
         System.out.printf("%.2f%n", z);
         System.out.printf("%.4f%n", z);
+        
+        //Para colocar o ponto em vez da virgula, usa-se essa classe importada.
+        Locale.setDefault(Locale.US);
+        System.out.printf("Com ponto: %.4f%n", z);
+        System.out.println("RESULTADO = " + z + " METROS");        
 
-
+        //Concatenar varios elementos com printf
+        System.out.printf("Resultado = %.1f metros%n", z);
+        
+       
     }
     
 }
