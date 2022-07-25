@@ -1,8 +1,12 @@
 
 package aulajava1;
 
+
 //importanto a classe para tranformar virgula em ponto
 import java.util.Locale;
+
+//import java.util.Scanner;
+
 
 /**
  *
@@ -14,7 +18,6 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
         
         int y = 32 + 5 ;
         int x = 50;
@@ -44,6 +47,40 @@ public class Main {
         System.out.printf("Resultado = %.1f metros%n", z);
         
        
+       
+       
+      /* Scanner ler = new Scanner(System.in);
+        String numero;
+        
+        System.out.print("Digite um numero: ");
+        numero = ler.next();
+        
+        if(numero == 0) {
+            return 2;
+        }else {
+            return 3;
+        }
+        
+        System.out.println("O numero é " + numero);
+
+        int idade = 20;  
+      //checando a idade  
+         if(idade%2 == 0) {  
+             return 2;     
+        }  
+         else {
+            return 1;
+         }
+       
+        */
+      
+       
+        
+        
+        
+
+        
+
     }
     
 }
