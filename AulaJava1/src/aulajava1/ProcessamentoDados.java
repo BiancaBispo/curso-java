@@ -74,15 +74,37 @@ public class ProcessamentoDados {
         System.out.println(c);
         
         //Exemplo 3 - Calcular area Double
-        double b, B, h, area;
+        /*double b, B, h, area;
         b = 6.0;
         B = 8.0;
         h = 5.0;
         
         area = (b+B) / 2.0 * h;
-        System.out.println("A area é: " + area);
+        System.out.println("A area é: " + area);*/
         
         //Exemplo 4 - Calcular area Float 
+        float b, B, h, area;
+        b = 6f;
+        B = 8f;
+        h = 5f;
         
+        area = (b+B) / 2f * h;
+        System.out.println("A area é: " + area);
+        
+        /*Tornar o resultado em double, colocar o tipo desejado entre parenteses.*/
+        //Ao inves do h=g; Ficaria 
+        int g,i;
+        double result;
+        g=5;
+        i=2;
+        
+        h = (int) g;
+        System.out.println("Atribuição " + h);
+
+        result = (double) g/i;
+        System.out.println("Resultado divisão: " + result);
+
+        
+
     }
 }
