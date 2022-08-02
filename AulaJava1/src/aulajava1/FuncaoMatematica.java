@@ -62,6 +62,8 @@ public class FuncaoMatematica {
         System.out.println("Valor de x1 = " + x1);
         System.out.println("Valor de x2 = " + x2);
         
+        
+        
         //EXERCICIO
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
