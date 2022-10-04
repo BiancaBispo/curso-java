@@ -1,4 +1,4 @@
-package uri;
+package uri.estrutura.sequencial.partedois;
 
 import java.util.Scanner;
 import java.util.Locale;

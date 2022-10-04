@@ -1,4 +1,4 @@
-package uri;
+package uri.estrutura.sequencial.parteum.mediaponderada;
 
 import java.util.Scanner;
 import java.util.Locale;

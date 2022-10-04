@@ -1,4 +1,4 @@
-package uri;
+package uri.estrutura.sequencial.parteum;
 
 /*
 Calcule o consumo médio de um automóvel sendo fornecidos a 
