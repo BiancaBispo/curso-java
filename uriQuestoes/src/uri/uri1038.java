@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class uri1038 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
+        
         int codigo = sc.nextInt();
         int quantidade = sc.nextInt();
         double precoTotal;
@@ -30,7 +31,7 @@ public class uri1038 {
                 precoTotal = quantidade * 4.00;
                 break;
         }
-        System.out.printf("Total: R$ %.2f%n", precoTotal);
+       // System.out.printf("Total: R$ %.2f%n", precoTotal);
         sc.close();
     }
 }
