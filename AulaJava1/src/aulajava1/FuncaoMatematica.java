@@ -4,10 +4,6 @@ package aulajava1;
 import java.util.Locale;
 import java.util.Scanner;
 
-/**
- *
- * @author Bianca
- */
 public class FuncaoMatematica {
     public static void main(String[] args) {
         /*

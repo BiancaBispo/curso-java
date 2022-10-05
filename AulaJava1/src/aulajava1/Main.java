@@ -1,22 +1,12 @@
-
 package aulajava1;
-
 
 //importanto a classe para tranformar virgula em ponto
 import java.util.Locale;
 
 //import java.util.Scanner;
 
-
-/**
- *
- * @author Bislu
- */
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         
         int y = 32 + 5 ;
